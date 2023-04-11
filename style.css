@@ -4,57 +4,73 @@
   box-sizing: border-box;
 }
 
+body {
+  
+  background-image: url(https://1.bp.blogspot.com/-EAFM7V4xxJ8/Xu5C0ia4dJI/AAAAAAAAUwQ/iyJWTXDoPjQmXS3rkeNJ61YIeCoZBw6ZgCK4BGAsYHg/w1600/rick-and-morty-black-wallpaper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
 header {
-  background-image: url(https://a-static.besthdwallpaper.com/rick-and-morty-minimalist-art-wallpaper-2304x720-89893_58.jpg);
+  background-color: blueviolet;
   padding: 20px;
   display: flex;
   justify-content: center;
+  border-radius: 15px 15px 0px 0px ;
 }
 
-#sinopsis {
-  color: rgb(26, 164, 249);
-}
 
-#ver-serie {
-  color: rgb(26, 164, 249);
-}
-
-.foto {
+.pin {
+  width: 200px;
+  height: 200px;
   padding: 0px;
   margin: 10px;
   border-radius: 50%;
-  box-shadow: 3px 3px rgba(57, 31, 1, 0.178);
+  box-shadow: 1px 1px 100px fuchsia;
 }
 
 .logo {
   padding: 15px;
-  width: 500px;
+  width: 600px;
 }
 
-header div img {
-  width: 180px;
+.banner{
+  width: 300px;
+  border-radius: 20px;
+}
+
+.titulo {
+  width: 75%;
 }
 
 nav {
-  background-color: rgba(177, 130, 238, 0.164);
-  border-radius: 5px;
-  border: solid rgba(255, 255, 255, 0.178) 2px;
+  background-color: magenta;
+  border-radius: 0px 0px 15px 15px;
+  border: solid fuchsia 2px;
+  box-shadow: 1px 1px 70px fuchsia;
+  margin-bottom: 15%;
 }
 
 nav ul {
   display: flex;
   justify-content: space-around;
 }
+
 nav ul li {
   list-style: none;
   padding: 1px;
   margin: 10px;
-  border: solid rgba(255, 255, 255, 0.418) 1px;
   border-radius: 5px;
 }
 nav ul li a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
   text-decoration: none;
   color: wheat;
+  padding: 15px;
 }
 footer {
   color: aliceblue;
@@ -67,15 +83,7 @@ footer {
   border: solid, wheat;
 }
 
-body {
-  background-image: url(https://1.bp.blogspot.com/-EAFM7V4xxJ8/Xu5C0ia4dJI/AAAAAAAAUwQ/iyJWTXDoPjQmXS3rkeNJ61YIeCoZBw6ZgCK4BGAsYHg/w1600/rick-and-morty-black-wallpaper.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 30px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.container {
+.container-grid {
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
