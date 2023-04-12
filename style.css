@@ -56,7 +56,7 @@ header {
 }
 
 nav {
-  background: linear-gradient(fuchsia, rgba(255, 0, 255, 0.678));
+  background: linear-gradient(fuchsia, rgba(255, 0, 255, 0.511));
   border-radius: 0px 0px 15px 15px;
   box-shadow: 1px 1px 40px fuchsia;
   padding: auto 0px;
@@ -89,7 +89,7 @@ ul {
 
 .nav-bar a:hover {
   color: white;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 10px white;
 }
 
 body h2 {
@@ -98,6 +98,7 @@ body h2 {
   text-align: center;
   font-size: 30px;
   margin-top: 90px;
+  
 }
 
 .text {
@@ -108,15 +109,14 @@ body h2 {
 }
 
 .banner-contain {
-  display: block;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  padding: 20px;
+  margin: auto 0px;
+  padding: 50px;
   text-shadow: 1px 1px 2px black;
-  align-items: start;
+  align-items: center;
+  text-align: center;
   color: gold;
   border-radius: 30px;
-  margin: auto 4%;
+  
 }
 
 .banner-contain:hover {
@@ -129,15 +129,13 @@ body h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto 0px;
-  padding: 0px;
   text-align: center;
 }
 
 .grid-item {
   text-transform: capitalize;
   width: 160px;
-  height: 300px;
+  height: 280px;
   background-color: rgba(255, 0, 255, 0.295);
   padding: 10px;
   padding-bottom: 20px;
@@ -158,40 +156,41 @@ body h2 {
 }
 
 .grid-item:hover {
-  box-shadow: white 2px 2px 111px;
-  background-color: whitesmoke;
+  box-shadow:fuchsia 2px 2px 111px;
+  background-color: white;
   color: rgb(136, 0, 255);
   text-shadow: black 1px 1px 3px;
-  border: solid rgba(255, 0, 255, 0.518) 10px;
+  border: solid fuchsia 10px;
 }
 
 .grid-item img {
   width: 150px;
   height: 150px;
   box-shadow: 1px 1px 10px black;
+  border-radius: 5px;
 }
 
 .hbo {
   width: 250px;
   border-radius: 26px;
-  border: solid 1.8px violet;
+  border: solid 3px blueviolet;
 }
 
 .hbo:hover {
   width: 250px;
-  border: solid 1.8px white;
-  box-shadow: 2px 2px 55px white;
+  border: solid 3px gold;
+  box-shadow: 2px 2px 80px gold;
 }
 
 .ver-serie {
   border-radius: 20px;
-  padding: 30px;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 40px;
   margin: auto 15%;
-  background-color: rgba(255, 255, 255, 0.336);
+  padding-bottom: 60px;
+  padding-top: 10px;
+  background-color: rgba(255, 217, 0, 0.144);
 }
 
 footer {
@@ -204,6 +203,18 @@ footer {
   color: gold;
   text-shadow: 1px 1px 3px black;
   padding-left: 100px;
+}
+
+.info{
+  padding: 50px;
+  text-align: center;
+}
+
+.contacto{
+  padding: 50px;
+  text-align: center;
+  padding-left: 50%;
+
 }
 
 .logos {
@@ -224,16 +235,8 @@ footer {
   text-shadow: 1px 1px 3px black;
 }
 
-.redes {
-  align-items: end;
-  justify-content: center;
-  margin-left: 700px;
-  text-align: justify;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
 
-@media only screen and (min-width: 220px) and (max-width: 730px) {
+@media only screen and (min-width: 321px) and (max-width: 780px) {
   header {
     display: block;
     margin: auto 0px;
@@ -263,9 +266,9 @@ footer {
   }
 
   .banner {
-    width: 300px;
-    height: 190px;
-    margin: auto 10px;
+    width: 240px;
+    height: 150px;
+    margin: auto 25px;
   }
 
   .banner-contain {
@@ -273,34 +276,41 @@ footer {
     display: block;
     background-color: none;
     align-items: center;
-    margin: 0px;
+    margin: auto 10px;
     padding: 0px;
   }
 
   .ver-serie {
-    margin: auto 15px;
+    margin: auto 0px;
     align-items: center;
-    padding: auto 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: rgba(255, 217, 0, 0.08);
   }
 
   .hbo {
     margin: auto 0px;
+    padding: 0px;
   }
 
   footer {
     display: block;
     text-align: center;
+    padding: 0px;
   }
 
-  .redes {
+  .contacto {
     justify-content: center;
-    margin: auto 55px;
+    margin: auto 0px;
     text-align: center;
+    padding: 30px;
   }
 
   .info {
     display: block;
     text-align: center;
     margin: auto 0px;
+    padding: 30px;
   }
 }
