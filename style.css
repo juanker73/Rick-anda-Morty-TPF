@@ -1,110 +1,294 @@
-* {
+body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
-
-body {
-  
+  color: whitesmoke;
+  text-shadow: 2px 2px 8px black;
+  border-radius: 15px;
   background-image: url(https://1.bp.blogspot.com/-EAFM7V4xxJ8/Xu5C0ia4dJI/AAAAAAAAUwQ/iyJWTXDoPjQmXS3rkeNJ61YIeCoZBw6ZgCK4BGAsYHg/w1600/rick-and-morty-black-wallpaper.png);
-  background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(81, 93, 200);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
 header {
-  background-color: blueviolet;
-  padding: 20px;
+  background: linear-gradient(rgb(120, 7, 225), rgba(255, 0, 255, 0.977));
+  margin: 0px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
   justify-content: center;
-  border-radius: 15px 15px 0px 0px ;
-}
-
-
-.pin {
-  width: 200px;
-  height: 200px;
-  padding: 0px;
-  margin: 10px;
-  border-radius: 50%;
-  box-shadow: 1px 1px 100px fuchsia;
-}
-
-.logo {
-  padding: 15px;
-  width: 600px;
-}
-
-.banner{
-  width: 300px;
-  border-radius: 20px;
+  align-items: flex-start;
 }
 
 .titulo {
-  width: 75%;
+  margin: auto 0%;
+}
+
+.logo {
+  width: 450px;
+  height: 180px;
+  background: none;
+}
+
+.pin {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: lightblue;
+  margin: 25px;
+  box-shadow: 2px 2px 80px white;
+}
+
+.banner {
+  width: 300px;
+  height: 190px;
+  border: whitesmoke 8px solid;
+  background-color: black;
+  margin: 25px;
+  margin-top: 100px;
+  box-shadow: 2px 2px 20px black;
 }
 
 nav {
-  background-color: magenta;
+  background: linear-gradient(fuchsia, rgba(255, 0, 255, 0.678));
   border-radius: 0px 0px 15px 15px;
-  border: solid fuchsia 2px;
-  box-shadow: 1px 1px 70px fuchsia;
+  box-shadow: 1px 1px 40px fuchsia;
   margin-bottom: 15%;
+  padding: 20px;
 }
 
-nav ul {
+.nav-bar ul {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-nav ul li {
-  list-style: none;
-  padding: 1px;
-  margin: 10px;
-  border-radius: 5px;
-}
-nav ul li a {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: larger;
+.nav-bar a {
+  margin: 60px;
+  justify-content: space-between;
   text-decoration: none;
-  color: wheat;
-  padding: 15px;
-}
-footer {
-  color: aliceblue;
-  border: solid rgba(172, 255, 47, 0.4) 2px;
+  color: gold;
+  padding: 2px 10px;
   border-radius: 10px;
+  text-shadow: none;
+  font-size: 32px;
 }
-.pequeña {
-  width: 150px;
-  border-radius: 15px;
-  border: solid, wheat;
+
+.nav-bar a:hover {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+body h2 {
+  color: gold;
+  text-shadow: 1px 1px 3px black;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 90px;
+}
+
+.text {
+  text-align: justify;
+  margin: auto 4%;
+  padding:auto 10px;
+  font-size: 20px;
+}
+
+.banner-contain {
+  display: block;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 20px;
+  text-shadow: 1px 1px 2px black;
+  align-items: start;
+  color: gold;
+  border-radius: 30px;
+  margin: auto 4%;
+}
+
+.banner-contain:hover {
+  box-shadow: 1px 1px 100px fuchsia;
+  background-color: rgba(255, 0, 247, 0.443);
 }
 
 .container-grid {
-  padding: 30px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  border: solid rgba(255, 255, 255, 0.34) 2px;
-  border-radius: 10px;
-}
-/*Estilos Items de grilla*/
-.grid-item {
-  background-color: rgba(240, 128, 128, 0.409);
+  margin: 20px;
   text-align: center;
-  padding: 30px;
-  width: 200px;
-  border-radius: 10px;
-  margin: 10px;
+}
+
+.grid-item {
+  text-transform: capitalize;
+  width: 160px;
+  height: 300px;
+  background-color: rgba(255, 0, 255, 0.295);
+  padding: 10px;
+  padding-bottom: 20px;
+  margin: 15px;
+  border: solid whitesmoke 10px;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  text-shadow: black 1px 1px 3px;
+  color: rgb(251, 222, 59);
+  box-shadow: 1px 1px 6px black;
+}
+
+.personajes h2{
+  font-size: 20px;
+  padding: 0px;
+  margin: 3px;
+}
+
+.grid-item:hover {
+  box-shadow: white 2px 2px 111px;
+  background-color: whitesmoke;
+  color: rgb(136, 0, 255);
+  text-shadow: black 1px 1px 3px;
+  border: solid rgba(255, 0, 255, 0.518) 10px;
 }
 
 .grid-item img {
-  width: 100px;
-  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 1px 1px 10px black;
+  
 }
-section h2 {
-  color: blanchedalmond;
+
+.hbo {
+  width: 150px;
+  border-radius: 26px;
+  border: solid 1.8px violet;
+}
+
+.hbo:hover {
+  width: 150px;
+  border: solid 1.8px white;
+  box-shadow: 2px 2px 55px white;
+}
+
+.ver-serie {
+  padding: 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
+footer {
+  display: flex;
+  background: linear-gradient(rgba(255, 0, 255, 0.475), blueviolet);
+  margin-top: 160px;
+  text-shadow: black 2px 2px 3px;
+  padding: 30px;
+  box-shadow: 1px 1px 100px fuchsia;
+}
+
+.logos {
+  width: 30px;
+  border-radius: 50%;
+  margin: 10px;
+  border: solid 2px white;
+}
+
+.logos:hover {
+  box-shadow: 2px 2px 20px white;
+  border: solid 2px magenta;
+}
+
+.ver-serie p {
+  font-size: 20px;
+  color: gold;
+  text-shadow: 1px 1px 3px black;
+}
+
+footer {
+  padding: 30px;
+  color: gold;
+  text-shadow: 1px 1px 3px black;
+}
+
+.redes {
+  align-items: end;
+  justify-content: center;
+  margin-left: 700px;
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 220px) and (max-width: 730px) {
+  header {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 220px;
+    height: 100px;
+    padding: 0px;
+    margin: auto 10%;
+  }
+
+  .pin {
+    width: 150px;
+    height: 150px;
+    margin: auto 25%;
+  }
+
+  .nav-bar li {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .banner {
+    width: 300px;
+    height: 190px;
+    margin: auto 10px;
+  }
+
+  .banner-contain {
+    border: none;
+    display: block;
+    background-color: none;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  footer {
+    display: block;
+    text-align: center;
+  }
+
+  .redes {
+    justify-content: center;
+    margin: auto 55px;
+    text-align: center;
+  }
+
+  .info {
+    display: block;
+    text-align: center;
+    margin: auto 0px;
+  }
 }
