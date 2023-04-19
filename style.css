@@ -296,11 +296,13 @@ footer {
   padding-bottom: 6%;
 }
 
-.info {
+.info, .redes {
   padding: 0px;
   text-align: center;
 
 }
+
+
 
 .contacto {
   padding: 0px;
@@ -418,7 +420,8 @@ footer {
   }
 
   .contacto {
-    margin: 0px;
+    margin-left: 0px;
+   
     padding: 0px;
   }
 
