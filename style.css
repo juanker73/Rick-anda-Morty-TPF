@@ -154,7 +154,7 @@ body h2:hover {
   font-size: 29px;
   font-weight: bold;
   color: white;
-  width: 50px;
+  width: 40px;
   height: 40px;
   border-radius: 25% 25%;
   border: solid white 6px;
@@ -180,7 +180,7 @@ body h2:hover {
     font-size: 36px;
     padding: 12px 20px;
     bottom: 110px;
-    right: 20px;
+    right: 60px;
   }
 }
 
@@ -195,7 +195,7 @@ body h2:hover {
 .grid-item {
   text-transform: capitalize;
   width: 160px;
-  height: 280px;
+  height: 290px;
   background-color: rgba(255, 0, 255, 0.295);
   padding: 10px;
   padding-bottom: 20px;
@@ -297,84 +297,70 @@ footer {
   color: gold;
   text-shadow: 1px 1px 3px black;
 }
+@media only screen and (max-width: 575px) {
 
 
-@media only screen and (min-width: 320px) and (max-width: 680px) {
-  header {
+  header{
     display: block;
-    margin: auto 0px;
-    padding: auto 0px;
-    text-align: center;
+    margin: 0px;
   }
 
-  .logo {
-    width: 220px;
+  .pin{
+    margin: auto 56px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .logo{
+    margin: auto 6px;
+    width: 300px;
     height: 100px;
-    padding: 0px;
-    margin: auto 10%;
   }
 
-  .pin {
-    width: 150px;
-    height: 150px;
-    margin: auto 25%;
-  }
-
-  .nav-bar li {
-    display: block;
-    margin-bottom: 30px;
-    text-align: center;
-    margin: auto 0px;
-    padding: auto 0px;
-  }
-  
-
-  .banner {
-    width: 240px;
-    height: 150px;
-    margin: auto 25px;
-  }
-
-  .banner-contain {
-    border: none;
-    display: block;
-    background-color: none;
-    align-items: center;
-    margin: auto 10px;
-    padding: 0px;
-  }
-
-  .ver-serie {
-    margin: auto 0px;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    background-color: rgba(255, 217, 0, 0.08);
-  }
-
-  .hbo {
-    margin: auto 0px;
-    padding: 0px;
-  }
-
-  footer {
-    display: block;
-    text-align: center;
-    padding: 0px;
-  }
-
-  .contacto {
+  ul{
     justify-content: center;
-    margin: auto 0px;
     text-align: center;
-    padding: 30px;
+    display: block;
+    width: 60%;
+    margin: auto 20%;
   }
 
-  .info {
+  li{
+    justify-content: space-between;
+    margin-bottom:  20px;
+
+  }
+
+  .sinopsis-text{
     display: block;
-    text-align: center;
-    margin: auto 0px;
-    padding: 30px;
+  }
+
+  .banner{
+    margin: auto 10px;
+    width: 200px;
+    height: 140px;
+  }
+
+  .ver-serie{
+    margin: auto 10px;
+  }
+
+  .contacto{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .info{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  footer{
+    display: block;
+    margin: 0px;
+    padding: 0px;
   }
 }
+
+
+
