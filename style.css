@@ -102,7 +102,7 @@ ul {
   justify-content: space-between;
   text-decoration: none;
   background-color: white;
-  padding: 12px;
+  padding: 8px;
   color: rgb(97, 5, 99);
   border-radius: 10px;
   text-shadow: none;
@@ -320,22 +320,29 @@ footer {
     height: 100px;
   }
 
-  .menu{
-    margin: 0px;
+  .nav{
+    align-items: center;
+    margin: auto 0px;
     padding: 0px;
     padding-top: 10;
+   
   }
 
-  ul {
+  .nav ul {
     justify-content: center;
     text-align: center;
     display: block;
-    margin: auto 0px;
+    margin: 0px;
+    padding: 0px;
+    
   }
 
   li {
-    justify-content: space-between;
+    margin: auto 0;
     margin-bottom: 30px;
+    
+    
+
 
   }
 
