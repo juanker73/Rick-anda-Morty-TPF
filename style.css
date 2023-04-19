@@ -427,6 +427,11 @@ footer {
     padding-top: 10%;
   }
 
+  .redes{
+    padding: 0px;
+    margin: 0px;
+  }
+
   footer {
     display: block;
     margin: 0px;
