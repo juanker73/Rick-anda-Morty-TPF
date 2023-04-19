@@ -67,11 +67,13 @@ header {
 .banner {
   width: 300px;
   height: 190px;
-  border: whitesmoke 8px solid;
+  border: whitesmoke 12px solid;
   background-color: black;
-  margin: 26px;
+  margin-right: 5px;
   margin-top: 10px;
-  box-shadow: 2px 2px 20px black;
+  box-shadow: 0px 1px 5px black;
+  border-radius: 10px;
+  padding: 0px;
 }
 
 .menu {
@@ -373,9 +375,15 @@ footer {
   }
 
   .banner {
-    margin: auto 10px;
-    width: 200px;
+    margin-right: 0px;
+    width: 240px;
     height: 140px;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+
+  .banner-contain{
+    padding: 0px;
   }
 
   .ver-serie {
