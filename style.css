@@ -328,6 +328,16 @@ footer {
   text-shadow: 1px 1px 3px black;
 }
 
+@media only screen and (max-width: 768px){
+
+  footer{
+    display: block;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
 @media only screen and (max-width: 575px) {
 
 
