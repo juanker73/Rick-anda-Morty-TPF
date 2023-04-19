@@ -264,11 +264,12 @@ body h2:hover {
 
 .ver-serie {
   font-family: 'Press Start 2P', cursive;
+  font-size: small;
   border-radius: 20px;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: auto 15%;
+  margin: auto 0%;
   text-shadow: 2px 2px 30px gold;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -387,8 +388,9 @@ footer {
   }
 
   .ver-serie {
-    margin: auto 10px;
+    margin: auto 1px;
     margin-bottom: 10%;
+    
   }
 
   .ver-serie h2 {
@@ -410,6 +412,6 @@ footer {
     display: block;
     margin: 0px;
     padding: 0px;
-    font-size: 8px;
+    font-size: 6px;
   }
 }
