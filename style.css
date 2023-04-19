@@ -18,11 +18,11 @@ body {
 
 header {
   background: linear-gradient(rgb(120, 7, 225), rgba(255, 0, 255, 0.977));
-  margin: auto 0px;
+  margin: 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: auto 0px;
+  padding: 0px;
   justify-content: center;
 }
 
@@ -74,13 +74,15 @@ header {
   box-shadow: 2px 2px 20px black;
 }
 
-nav {
+.menu {
   background: linear-gradient(fuchsia 20%, rgba(255, 0, 255, 0.578) 80%);
   border-radius: 0px 0px 15px 15px;
   box-shadow: 1px 1px 40px fuchsia;
-  padding: auto 0px;
-  margin: auto 0px;
-  padding-bottom: 30px;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 130px;
+  padding-top: 100px;
+  
 }
 
 ul {
@@ -92,7 +94,7 @@ ul {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: auto 0px;
-  padding-top: 90px;
+  
 }
 
 ul {
@@ -110,18 +112,22 @@ ul {
   text-decoration: none;
   background-color: white;
   padding: 10px;
-  color: rgb(97, 5, 99);
+  color: fuchsia;
   border-radius: 10px;
   text-shadow: none;
   font-size: large;
+  text-shadow: 1px 1px 1px black;
+  border: solid black 1px;
 
 }
 
 
 .nav-bar a:hover {
   color: fuchsia;
-  text-shadow: 1px 1px 10px black;
-  background-color: rgb(65, 11, 65);
+  text-shadow: 1px 1px 1px black;
+  background-color: gold;
+  box-shadow: 1px 1px 30px gold;
+  text-shadow: 1px 1px 5px black;
 }
 
 body h2 {
@@ -281,6 +287,8 @@ footer {
   padding-left: 100px;
   font-family: 'Press Start 2P', cursive;
   font-size: small;
+  padding-top: 10%;
+  padding-bottom: 6%;
 }
 
 .info {
