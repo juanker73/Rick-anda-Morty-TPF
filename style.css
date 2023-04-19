@@ -45,7 +45,7 @@ header {
 }
 
 .titulo {
-  margin: auto 0%;
+  margin: auto 20%;
   padding: 0px;
 }
 
@@ -84,7 +84,7 @@ header {
   margin: 0px;
   padding-bottom: 130px;
   padding-top: 100px;
-  
+
 }
 
 ul {
@@ -96,7 +96,7 @@ ul {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: auto 0px;
-  
+
 }
 
 ul {
@@ -136,15 +136,17 @@ body h2 {
   color: gold;
   text-shadow: 1px 1px 3px black;
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
   margin-top: 90px;
-  font-family: 'Bebas Neue', cursive;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Press Start 2P', cursive;
   ;
 }
 
 body h2:hover {
-  text-shadow: 1px 1px 70px white;
-  color: fuchsia;
+  text-shadow: 1px 1px 20px fuchsia;
+
+
 }
 
 .ver-serie h2 {
@@ -164,7 +166,7 @@ body h2:hover {
 }
 
 .banner-contain {
-  margin: auto 0px;
+  margin: auto 10px;
   padding: 50px;
   text-shadow: 1px 1px 2px black;
   align-items: center;
@@ -253,7 +255,7 @@ body h2:hover {
   width: 250px;
   border-radius: 26px;
   border: solid 3px blueviolet;
-  box-shadow: 1px 1px 90px fuchsia;
+
 }
 
 .hbo:hover {
@@ -265,7 +267,6 @@ body h2:hover {
 .ver-serie {
   font-family: 'Press Start 2P', cursive;
   font-size: small;
-  border-radius: 20px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -273,6 +274,7 @@ body h2:hover {
   text-shadow: 2px 2px 30px gold;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: 10%;
   padding-bottom: 60px;
   padding-top: 10px;
   background-color: rgba(255, 217, 0, 0.144);
@@ -280,7 +282,7 @@ body h2:hover {
 
 footer {
   display: flex;
-  background: linear-gradient(rgba(255, 0, 255, 0.475), blueviolet);
+  background: linear-gradient(rgba(255, 0, 255, 0.477), blueviolet);
   margin: auto 0px;
   margin-top: 10%;
   text-shadow: black 2px 2px 3px;
@@ -349,6 +351,11 @@ footer {
     height: 100px;
   }
 
+  .titulo {
+    margin: auto 0%;
+    padding: 0px;
+  }
+
   ul {
     align-items: center;
     margin: auto 0px;
@@ -383,14 +390,16 @@ footer {
     padding: 0px;
   }
 
-  .banner-contain{
+  .banner-contain {
     padding: 0px;
   }
 
-  .ver-serie {
+  .ver-serie p {
     margin: auto 1px;
     margin-bottom: 10%;
-    
+    font-size: 12px;
+    margin-top: 28px;
+
   }
 
   .ver-serie h2 {
@@ -412,6 +421,6 @@ footer {
     display: block;
     margin: 0px;
     padding: 0px;
-    font-size: 6px;
+    font-size: 8px;
   }
 }

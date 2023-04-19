@@ -15,7 +15,7 @@ llamadaApi.then((data) => {
         $characters.innerHTML += `
         <div class="grid-item">
                 <img class"character-image" src=${data.results[i].image} alt="imagen de personaje"/>
-                <h2>${data.results[i].name}</h2>
+                <h3>${data.results[i].name}</h3>
                 <p>Gender: ${data.results[i].gender}</p>
                 <p>Species: ${data.results[i].species}</p>
                 <p>Status: ${data.results[i].status}</p>
