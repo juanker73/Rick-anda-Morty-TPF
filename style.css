@@ -25,6 +25,7 @@ header {
   padding: auto 0px;
   justify-content: center;
 }
+
 #dinamic {
   -webkit-animation: random 2s infinite;
   animation: random 2s infinite;
@@ -33,7 +34,7 @@ header {
 @keyframes random {
 
   20% {
-    background-color:rgba(224, 10, 192, 0.324);
+    background-color: rgba(224, 10, 192, 0.324);
   }
 
   50% {
@@ -91,47 +92,53 @@ ul {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: auto 0px;
-  padding: 0px;
+  padding-top: 90px;
 }
 
 
-nav a {
+.menu li a {
+  font-family: 'Press Start 2P', cursive;
   margin: 30px;
   justify-content: space-between;
   text-decoration: none;
-  color: gold;
-  padding: 0px;
+  background-color: white;
+  padding: 12px;
+  color: rgb(97, 5, 99);
   border-radius: 10px;
   text-shadow: none;
-  font-size: 25px;
+  font-size: large;
 }
 
 
 .nav-bar a:hover {
-  color: white;
-  text-shadow: 1px 1px 10px white;
+  color: fuchsia;
+  text-shadow: 1px 1px 10px black;
+  background-color: rgb(65, 11, 65);
 }
 
 body h2 {
   color: gold;
   text-shadow: 1px 1px 3px black;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 90px;
+  font-family:'Bebas Neue',cursive; ;
 }
 
 body h2:hover {
-    text-shadow:1px 1px 70px white;
-    color: fuchsia;
+  text-shadow: 1px 1px 70px white;
+  color: fuchsia;
 }
-  
+
 
 
 .text {
+  font-family: 'Bebas Neue', cursive;
   text-align: justify;
   margin: auto 4%;
   padding: auto 10px;
-  font-size: 20px;
+  font-size: 30px;
+
 }
 
 .banner-contain {
@@ -142,7 +149,7 @@ body h2:hover {
   text-align: center;
   color: gold;
   border-radius: 30px;
-  
+
 }
 
 .banner-contain:hover {
@@ -150,34 +157,24 @@ body h2:hover {
   background-color: rgba(255, 0, 247, 0.443);
 }
 
-.btn-flotante {
-  font-size: 29px;
-  font-weight: bold;
-  color: white;
-  width: 40px;
-  height: 40px;
-  border-radius: 25% 25%;
-  border: solid white 6px;
-  letter-spacing: 0px;
-  background-color: rgba(255, 0, 255, 0.607);
+.boton-volver img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: rotate(-90deg);
   position: fixed;
-  bottom: 50px;
-  right: 50px;
-  transition: all 300ms ease 0ms;
-  box-shadow: 1px 1px 30px white;
-  z-index: 99;
-  text-decoration: none;
+  bottom: 110px;
+  right: 70px;
 }
 
-.btn-flotante:hover {
-  background-color:rgba(255, 217, 0, 0.429);
-  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-  transform: translateY(-7px);
+.boton-volver img:hover {
+  box-shadow: 1px 1px 28px fuchsia;
+  border: fuchsia 4px solid;
 }
 
 @media only screen and (max-width: 680px) {
-  .btn-flotante {
-    font-size: 36px;
+  .boton-volver {
+
     padding: 12px 20px;
     bottom: 110px;
     right: 60px;
@@ -195,15 +192,15 @@ body h2:hover {
 .grid-item {
   text-transform: capitalize;
   width: 160px;
-  height: 290px;
+  height: 300px;
   background-color: rgba(255, 0, 255, 0.295);
   padding: 10px;
   padding-bottom: 20px;
   margin: 15px;
   border: solid whitesmoke 10px;
   border-radius: 15px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: small;
+  font-family: 'Bebas Neue', cursive;
+  font-size: medium;
   text-shadow: black 1px 1px 3px;
   color: rgb(251, 222, 59);
   box-shadow: 1px 1px 6px black;
@@ -216,7 +213,7 @@ body h2:hover {
 }
 
 .grid-item:hover {
-  box-shadow:fuchsia 2px 2px 111px;
+  box-shadow: fuchsia 2px 2px 111px;
   background-color: white;
   color: rgb(136, 0, 255);
   text-shadow: black 1px 1px 3px;
@@ -244,6 +241,7 @@ body h2:hover {
 }
 
 .ver-serie {
+  font-family: 'Press Start 2P', cursive;
   border-radius: 20px;
   align-items: center;
   justify-content: center;
@@ -266,17 +264,20 @@ footer {
   color: gold;
   text-shadow: 1px 1px 3px black;
   padding-left: 100px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: small;
 }
 
-.info{
-  padding: 50px;
+.info {
+  padding: 0px;
   text-align: center;
+  
 }
 
-.contacto{
-  padding: 50px;
+.contacto {
+  padding: 0px;
   text-align: center;
-  padding-left: 50%;
+  margin-left:30%;
 
 }
 
@@ -297,70 +298,76 @@ footer {
   color: gold;
   text-shadow: 1px 1px 3px black;
 }
+
 @media only screen and (max-width: 575px) {
 
 
-  header{
+  header {
     display: block;
     margin: 0px;
+    padding-bottom: 20%;
   }
 
-  .pin{
+  .pin {
     margin: auto 56px;
     width: 200px;
     height: 200px;
   }
 
-  .logo{
+  .logo {
     margin: auto 6px;
     width: 300px;
     height: 100px;
   }
 
-  ul{
+  .menu{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10;
+  }
+
+  ul {
     justify-content: center;
     text-align: center;
     display: block;
-    width: 60%;
-    margin: auto 20%;
+    margin: auto 0px;
   }
 
-  li{
+  li {
     justify-content: space-between;
-    margin-bottom:  20px;
+    margin-bottom: 30px;
 
   }
 
-  .sinopsis-text{
+  .sinopsis-text {
     display: block;
   }
 
-  .banner{
+  .banner {
     margin: auto 10px;
     width: 200px;
     height: 140px;
   }
 
-  .ver-serie{
+  .ver-serie {
     margin: auto 10px;
+    margin-bottom: 10%;
   }
 
-  .contacto{
+  .contacto {
     margin: 0px;
     padding: 0px;
   }
 
-  .info{
+  .info {
     margin: 0px;
-    padding: 0px;
+    padding-top: 10%;
   }
 
-  footer{
+  footer {
     display: block;
     margin: 0px;
     padding: 0px;
+    font-size: x-small;
   }
 }
-
-
-
